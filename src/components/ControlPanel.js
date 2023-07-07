@@ -28,7 +28,7 @@ const ControlPanel = ({ drivers }) => {
   }, [drivers]);
 
   return (
-    <div>
+    <div className="control-panel">
       <h2>Driver Control Panel</h2>
       <ul>
         {drivers.map((driver) => (
